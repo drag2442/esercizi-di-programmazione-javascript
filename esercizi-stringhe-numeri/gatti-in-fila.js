@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var ngatti = prompt();
+var nfile = prompt();
+var totfile = Math.ceil(ngatti/nfile);
+var mancanti = totfile*nfile-ngatti;
+console.log("Il totale delle file è ",totfile);
+console.log("Nell'ultima fila sono rimasti ",mancanti, "posti");

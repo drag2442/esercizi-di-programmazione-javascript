@@ -11,3 +11,7 @@
 
   http://www.imparareaprogrammare.it
 */
+var annoc = prompt("Inserisci l'anno corrente");
+var annon = prompt("Inserisci il tuo anno di nascita");
+var età = annoc - annon;
+console.log("età =", età, "anni mancanti ai 100 =", 100-età);

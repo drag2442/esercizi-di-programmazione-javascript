@@ -12,3 +12,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var secondi = prompt("Inserisci il numero di secondi");
+var ore = Math.round(secondi/3600);
+var minuti = Math.round((secondi-ore*3600)/60);
+secondi = Math.round(secondi-(ore*3600+minuti*60));
+console.log(ore, "ore,", minuti, "minuti e", secondi, "secondi");
